@@ -1,0 +1,23 @@
+GET http://localhost:3000/tweets
+### 
+GET http://localhost:3000/tweet/1
+### 
+POST  http://localhost:3000/tweet/
+Content-Type: application/json
+
+{
+    "content":"ddddddddddddddddddddddd",
+    "authorId":1
+
+}
+
+### 
+PUT  http://localhost:3000/tweet/
+
+
+{
+
+}
+
+### 
+DELETE  http://localhost:3000/tweet/1
